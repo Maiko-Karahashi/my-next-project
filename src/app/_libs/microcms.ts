@@ -4,7 +4,6 @@ import type {
   MicroCMSImage,
   MicroCMSListContent,
 } from "microcms-js-sdk";
-import { StringifyOptions } from "querystring";
 
 export type Member = {
   name: string;
