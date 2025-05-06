@@ -14,6 +14,7 @@ type Props = {
 };
 
 export default async function Page({ params, searchParams }: Props) {
+  // 非同期の処理
   const data = await getNewsDetail(params.slug, {
     draftKey: searchParams?.dk,
   }).catch(notFound);
